@@ -1,0 +1,34 @@
+1. Is the project organized modularly, with Make as the workflow manager?
+I can't see the makefile in your directory. Would be great if your will provide it to the final project.
+
+2. Does the project use both Python (Pandas specifically) and R (Tidyverse specifically) scripts?
+Yes, project use both Python(for data cleaning) and R (for data processing).
+
+3. Is Docker used to define execution environments appropriately?
+I was not able to find Docker file.
+
+4. Are the plots appropriate for the data types, the hypotheses being tested, and the points being communicated?
+Yes, I very lie the analysis performed.
+
+5. How can the project be organized or documented more clearly?
+Just add Make and Docker files.
+
+6. Is the purpose of the project communicated clearly?
+I really like how the readme file look like.
+
+7. Does the purpose of the project make sense from the client’s point of view? How could the project better serve the client?
+The purpose looks good for me, but I would add more details for the UMD about why they may need this statistical information. Why it is important to know and how they may use it in the future.
+
+8. Is the source of the data made clear? (Remember that this project can be part of your public portfolios, so people not familiar with UMD may see it).
+Yes, I like all the references you provided.
+
+9. Is the interpretation of figures clearly explained?
+Yes.
+
+10. Is the purpose and interpretation of analysis steps clearly communicated?
+I very like, how the code was commented.
+
+11. Are overall take-home messages clearly communicated?
+
+I would add a litle bit to the markdown file about the result. What trends do you see and how it would help to UMD.
+Good luck!

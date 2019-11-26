@@ -1,0 +1,34 @@
+1. Is the project organized modularly, with Make as the workflow manager?
+I was not able to find Makefile.
+
+2. Does the project use both Python (Pandas specifically) and R (Tidyverse specifically) scripts?
+Yes. Everething looks good.
+
+3. Is Docker used to define execution environments appropriately?
+
+I was not able to find Docker. It will be very usefull to have one.
+
+4. Are the plots appropriate for the data types, the hypotheses being tested, and the points being communicated?
+They seems to be right.
+
+5. How can the project be organized or documented more clearly?
+It would be great if you will upload the html file, so it will be easy to see.
+
+6. Is the purpose of the project communicated clearly?
+I like how you provede the information about goal and purpose.
+
+7. Does the purpose of the project make sense from the client’s point of view? How could the project better serve the client?
+The html file would help a lot. I like that you provided the explanation of figures and what do they means. Keep going!
+
+8. Is the source of the data made clear? (Remember that this project can be part of your public portfolios, so people not familiar with UMD may see it).
+May be you should add a link, so it will be more clear.
+
+9. Is the interpretation of figures clearly explained?
+It seems to be OK.
+
+10. Is the purpose and interpretation of analysis steps clearly communicated?
+I would add a bit more information when you will finalize the project.
+
+11. Are overall take-home messages clearly communicated?
+
+Everething looks very well so far. Please keep going so you will get very good project. Gould luck!
