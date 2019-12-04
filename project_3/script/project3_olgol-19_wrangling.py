@@ -1,16 +1,15 @@
 
 # coding: utf-8
 
-# In[28]:
+# In[1]:
 
 
 # import packages
 import pandas as pd
 import numpy as np
-from scipy import stats
 
 
-# In[54]:
+# In[2]:
 
 
 # read data
@@ -20,13 +19,14 @@ exit = pd.read_csv('https://raw.githubusercontent.com/biodatascience/datasci611/
 income = pd.read_csv('https://raw.githubusercontent.com/biodatascience/datasci611/gh-pages/data/project2_2019/INCOME_ENTRY_191102.tsv',sep ='\t')
 
 
-# In[9]:
+# In[3]:
 
 
 # data cleaning for clients, select only data which will be analyzed
 cl_client = client[["Client ID","Client Age at Entry","Client Gender","Client Primary Race","Client Ethnicity","Client Veteran Status"]].dropna()
 cl_client.columns = ["ID","Age","Gender","Race","Ethnicity","Veteran"]
 # remove (HUD) at the end
+cl_client = cl_client.replace(to_replace = "American Indian or Alaska Native (HUD)", value = "American Indian or Alaska Native")
 cl_client = cl_client.replace(to_replace = "Asian (HUD)", value = "Asian")
 cl_client = cl_client.replace(to_replace = "Black or African American (HUD)", value = "Black/African American")
 cl_client = cl_client.replace(to_replace = "Native Hawaiian or Other Pacific Islander (HUD)", value = "Native Hawaiian/Pacific Islander") 
@@ -42,13 +42,13 @@ cl_client = cl_client.replace(to_replace = "No (HUD)", value = "No")
 final_client = cl_client.drop_duplicates()
 
 
-# In[10]:
+# In[4]:
 
 
 final_client.head()
 
 
-# In[74]:
+# In[5]:
 
 
 # data cleaning for detailed information, select only data which will be analyzed
@@ -61,13 +61,13 @@ cl_detail = cl_detail.replace(to_replace = "Client doesn't know (HUD)", value = 
 final_detail = cl_detail.drop_duplicates()
 
 
-# In[75]:
+# In[6]:
 
 
 final_detail.head()
 
 
-# In[76]:
+# In[7]:
 
 
 # data cleaning for detailed information, select only data which will be analyzed
@@ -77,26 +77,26 @@ cl_income = cl_income[cl_income.Income>0]
 final_income = cl_income.drop_duplicates()
 
 
-# In[77]:
+# In[8]:
 
 
 final_income.head()
 
 
-# In[78]:
+# In[9]:
 
 
 Master_df1 = pd.merge(final_client, final_detail)
 Master_df = pd.merge(Master_df1, final_income)
 
 
-# In[81]:
+# In[10]:
 
 
 Master_df.head()
 
 
-# In[82]:
+# In[11]:
 
 
 Master_df.to_csv("Final_data_for_analysis.csv", index=False)

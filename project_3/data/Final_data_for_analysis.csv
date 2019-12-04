@@ -284,12 +284,12 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 280121,53.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1446.0
 280121,54.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1540.0
 280121,54.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1446.0
-373323,50.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,No,No,880.0
-373323,50.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,Yes,No,880.0
-373323,51.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,No,No,880.0
-373323,51.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,Yes,No,880.0
-373323,49.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,No,No,880.0
-373323,49.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,Yes,No,880.0
+373323,50.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,No,No,880.0
+373323,50.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,Yes,No,880.0
+373323,51.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,No,No,880.0
+373323,51.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,Yes,No,880.0
+373323,49.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,No,No,880.0
+373323,49.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,Yes,No,880.0
 281794,44.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,No,No,1360.0
 281794,46.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,No,No,1360.0
 288078,36.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
@@ -439,7 +439,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 381739,25.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,1360.0
 381739,24.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,1360.0
 412579,48.0,Female,Black/African American,Hispanic/Latino,No,No,No,Yes,960.0
-160859,53.0,Male,American Indian or Alaska Native (HUD),Hispanic/Latino,No,Yes,Yes,No,820.0
+160859,53.0,Male,American Indian or Alaska Native,Hispanic/Latino,No,Yes,Yes,No,820.0
 412724,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
 412856,56.0,Female,White,Non-Hispanic/Non-Latino,No,No,No,No,1200.0
 10619,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,742.0
@@ -516,7 +516,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 415102,52.0,Male,White,Non-Hispanic/Non-Latino,Yes,Yes,No,Yes,2160.0
 164121,60.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,100.0
 164121,60.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,1500.0
-415099,56.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
+415099,56.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
 415101,59.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,777.0
 415098,26.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,500.0
 415100,52.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,360.0
@@ -568,14 +568,14 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 373728,49.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,886.0
 373728,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,184.0
 373728,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,886.0
-258810,50.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
-258810,50.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
-258810,51.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
-258810,51.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
-258810,53.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
-258810,53.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
-258810,54.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
-258810,54.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
+258810,50.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
+258810,50.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
+258810,51.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
+258810,51.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
+258810,53.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
+258810,53.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
+258810,54.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,No,No,750.0
+258810,54.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
 416285,25.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,600.0
 416285,26.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,600.0
 115069,61.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,317.0
@@ -650,7 +650,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 158747,27.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1550.0
 401581,35.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
 419122,54.0,Male,White,Hispanic/Latino,No,Yes,No,No,600.0
-419123,22.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,2000.0
+419123,22.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,No,No,2000.0
 179960,56.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,700.0
 248566,49.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1200.0
 248566,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1200.0
@@ -1272,7 +1272,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 279075,51.0,Male,White,Non-Hispanic/Non-Latino,No,No,No,No,800.0
 433288,31.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Unknown,No,500.0
 433289,30.0,Male,White,Hispanic/Latino,No,No,Yes,No,500.0
-433377,34.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,No,Yes,900.0
+433377,34.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,No,Yes,900.0
 433461,28.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,400.0
 433565,74.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,650.0
 317391,39.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,1300.0
@@ -1299,7 +1299,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 434699,41.0,Male,White,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,25.0
 434699,41.0,Male,White,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,300.0
 434698,48.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
-434700,57.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,2400.0
+434700,57.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,2400.0
 168637,56.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1100.0
 168637,56.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1200.0
 168637,57.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1100.0
@@ -1901,7 +1901,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 469688,56.0,Male,White,Non-Hispanic/Non-Latino,No,No,No,No,600.0
 380554,52.0,Male,White,Non-Hispanic/Non-Latino,No,No,No,No,1680.0
 469821,70.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,783.0
-318721,57.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,950.0
+318721,57.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,950.0
 470290,32.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1000.0
 470290,33.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1000.0
 470290,34.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1000.0
@@ -1957,7 +1957,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 475701,44.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,642.0
 147114,40.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,674.0
 476015,20.0,Female,Unknown,Hispanic/Latino,No,Yes,No,Yes,800.0
-430061,36.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,473.0
+430061,36.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,473.0
 475362,23.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
 411392,24.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
 124181,49.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,1800.0
@@ -2040,8 +2040,8 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 481111,64.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,485.0
 134851,53.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,620.0
 134851,54.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,620.0
-481110,41.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,No,No,1000.0
-481110,42.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,No,No,1000.0
+481110,41.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,No,No,1000.0
+481110,42.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,No,No,1000.0
 481378,38.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,1000.0
 198146,42.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,830.0
 199637,54.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,2000.0
@@ -2095,7 +2095,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 434832,62.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,880.0
 340231,50.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,600.0
 153907,55.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,801.0
-485472,54.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,961.0
+485472,54.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,961.0
 495393,44.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,750.0
 314203,66.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1200.0
 214669,26.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,2000.0
@@ -2189,7 +2189,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 494261,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1200.0
 178760,77.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,1400.0
 494262,50.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,861.0
-494120,55.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,2900.0
+494120,55.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,2900.0
 495022,48.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,894.0
 495985,35.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
 496402,66.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,800.0
@@ -2227,7 +2227,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 499579,31.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,600.0
 501203,49.0,Male,Native Hawaiian/Pacific Islander,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,70.0
 501202,53.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,740.0
-476246,68.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,Yes,No,483.0
+476246,68.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,Yes,No,483.0
 501347,50.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,771.0
 501345,42.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,No,No,928.0
 501460,48.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,52.0
@@ -2279,7 +2279,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 169182,36.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,600.0
 509783,47.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,1600.0
 198302,34.0,Male,White,Non-Hispanic/Non-Latino,No,No,No,No,500.0
-509869,53.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,Yes,No,Yes,No,2100.0
+509869,53.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,Yes,No,Yes,No,2100.0
 509874,24.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Unknown,No,2000.0
 510435,48.0,Trans Female (MTF or Male to Female),White,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,111.0
 510453,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,754.0
@@ -2421,8 +2421,8 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 390406,77.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Data not collected (HUD),No,988.0
 318609,46.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,780.0
 390827,55.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
-391122,58.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,974.0
-391122,58.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,263.0
+391122,58.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,974.0
+391122,58.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,263.0
 391343,61.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1572.0
 192021,45.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,710.0
 172627,24.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
@@ -2515,11 +2515,11 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 230111,44.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,150.0
 267123,25.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,721.0
 405095,30.0,Trans Female (MTF or Male to Female),White,Non-Hispanic/Non-Latino,No,Yes,No,No,733.0
-351468,51.0,Male,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
+351468,51.0,Male,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,Yes,Yes,No,750.0
 405932,61.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1117.0
 405919,58.0,Male,White,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,1072.0
 6597,54.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Unknown,No,No,144.0
-336186,23.0,Female,American Indian or Alaska Native (HUD),Non-Hispanic/Non-Latino,No,No,Yes,Yes,300.0
+336186,23.0,Female,American Indian or Alaska Native,Non-Hispanic/Non-Latino,No,No,Yes,Yes,300.0
 285066,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,721.0
 285066,51.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,721.0
 378316,54.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,468.0
