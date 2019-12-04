@@ -35,7 +35,8 @@ cl_client = cl_client.replace(to_replace = "Hispanic/Latino (HUD)", value = "His
 cl_client = cl_client.replace(to_replace = "Non-Hispanic/Non-Latino (HUD)", value = "Non-Hispanic/Non-Latino") 
 cl_client = cl_client.replace(to_replace = "Data not collected (HUD)", value = "Unknown") 
 cl_client = cl_client.replace(to_replace = "Client refused (HUD)", value = "Unknown") 
-cl_client = cl_client.replace(to_replace = "Client doesn't Know (HUD)", value = "Unknown") 
+cl_client = cl_client.replace(to_replace = "Client doesn't Know (HUD)", value = "Unknown")
+cl_client = cl_client.replace(to_replace = "Client doesn't know (HUD)", value = "Unknown") 
 cl_client = cl_client.replace(to_replace = "Yes (HUD)", value = "Yes") 
 cl_client = cl_client.replace(to_replace = "No (HUD)", value = "No") 
 
@@ -57,7 +58,9 @@ cl_detail.columns = ["ID","Disability","Health_Insurance","Domestic violence vic
 cl_detail = cl_detail.replace(to_replace = "Yes (HUD)", value = "Yes") 
 cl_detail = cl_detail.replace(to_replace = "No (HUD)", value = "No")
 cl_detail = cl_detail.replace(to_replace = "Client doesn't Know (HUD)", value = "Unknown") 
-cl_detail = cl_detail.replace(to_replace = "Client doesn't know (HUD)", value = "Unknown") 
+cl_detail = cl_detail.replace(to_replace = "Client doesn't know (HUD)", value = "Unknown")
+cl_detail = cl_detail.replace(to_replace = "Data not collected (HUD)", value = "Unknown") 
+cl_detail = cl_detail.replace(to_replace = "Client refused (HUD)", value = "Unknown") 
 final_detail = cl_detail.drop_duplicates()
 
 
@@ -67,7 +70,7 @@ final_detail = cl_detail.drop_duplicates()
 final_detail.head()
 
 
-# In[23]:
+# In[7]:
 
 
 # data cleaning for income information, select only data which will be analyzed
@@ -77,26 +80,26 @@ cl_income = cl_income.fillna(0)
 final_income = cl_income.drop_duplicates()
 
 
-# In[25]:
+# In[8]:
 
 
 final_income.head()
 
 
-# In[26]:
+# In[9]:
 
 
 Master_df1 = pd.merge(final_client, final_detail)
 Master_df = pd.merge(Master_df1, final_income)
 
 
-# In[27]:
+# In[10]:
 
 
 Master_df.head()
 
 
-# In[28]:
+# In[11]:
 
 
 Master_df.to_csv("Final_data_for_analysis.csv", index=False)

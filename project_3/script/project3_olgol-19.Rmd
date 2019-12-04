@@ -50,7 +50,7 @@ The wrangling step is completed using Pyton programming language.
 
 ## Homeless distribution by Gender
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 
 # remove duplicates, means that data for the first entry to the program 
 
@@ -83,7 +83,7 @@ We can clearly see that Male homeless people is around 72%. This may give the UM
 
 ## Homeless distribution by Race
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 
 # Race Distribution
 ggplot(data = UMD_data, aes(x=Race)) +
@@ -101,7 +101,7 @@ The majority of homeless people are African American. UMD can try to collaborate
 
 ## Ethnicity Distribution
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 data_e <- UMD_data %>% 
   group_by(Ethnicity) %>% 
   count() %>% 
@@ -124,7 +124,7 @@ ggplot(data=data_e)+
 
 ## Are there any Vetrans?
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 data_v <- UMD_data %>% 
   group_by(Veteran) %>% 
   count() %>% 
@@ -146,7 +146,7 @@ There is an almost 13 percent Veterans in the shelter. I think UMD may create or
 
 ## People with Disability
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 data_d <- UMD_data %>% 
   group_by(Disability) %>% 
   count() %>% 
@@ -169,7 +169,7 @@ Almost 55% homeless people have a disability. It would be good to create a progr
 
 ## Homeless people covered with Health Insurance
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 data_i <- UMD_data %>% 
   group_by(Health_Insurance) %>% 
   count() %>% 
@@ -193,7 +193,7 @@ About 58% homeless people do not have Health Insurance. UMD may help people to g
 
 ## Effect of Domestic Violence
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 data_dv <- UMD_data %>% 
   group_by(`Domestic violence victim`) %>% 
   count() %>% 
@@ -217,7 +217,7 @@ ggplot(data=data_dv)+
 ## Age Distribution
 
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 
 ggplot(data = UMD_data, aes(x=Age)) +
   geom_histogram(alpha = 0.4, color="black", fill="grey") +
@@ -236,7 +236,7 @@ Age vary from 16 to 80, with average of approx. 45 year.
 ## Distribution by Age and Gender
 
 
-```{r message=FALSE, warning=FALSE, echo=FALSE}
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
 
 # Age/Gender Distribution
 
@@ -254,5 +254,39 @@ ggplot(data = UMD_data, aes(x=Age,fill=Gender ,color=Gender)) +
              linetype="dashed")
 detach("package:plyr", unload=TRUE)
 ```
+
 Female and Male age distribution is very similar.
+
+## Income Distribution
+
+
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
+data_in <- UMD_data %>% 
+  filter(Income>0)
+
+data_in_n <- UMD_data %>% 
+  filter(Income==0)
+
+x <- data.frame("Count" = c(2219,79), "Income" = c("No Income", "Some Income"))
+
+ggplot(data = x, aes(Income, Count)) +
+  geom_col(alpha = 0.4, color="black", fill="grey") +
+  theme_classic() +
+  ylab("Count") +
+  ggtitle("Income distribution")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+```
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.align="center"}
+ggplot(data = data_in, aes(x=Income)) +
+  geom_histogram(alpha = 0.4, color="black", fill="grey") +
+  theme_classic() +
+  xlab("Amount") +
+  ylab("Count") +
+  ggtitle("Income distribution")+
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+Most Homeless people do not have any income, in case of some income the amount of money receiving is low.
 
