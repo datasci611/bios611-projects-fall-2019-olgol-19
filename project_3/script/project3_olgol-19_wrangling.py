@@ -67,36 +67,36 @@ final_detail = cl_detail.drop_duplicates()
 final_detail.head()
 
 
-# In[7]:
+# In[23]:
 
 
-# data cleaning for detailed information, select only data which will be analyzed
-cl_income = income[["Client ID","Monthly Amount (Entry)"]].dropna()
+# data cleaning for income information, select only data which will be analyzed
+cl_income = income[["Client ID","Monthly Amount (Entry)"]]
 cl_income.columns=["ID","Income"]
-cl_income = cl_income[cl_income.Income>0]
+cl_income = cl_income.fillna(0)
 final_income = cl_income.drop_duplicates()
 
 
-# In[8]:
+# In[25]:
 
 
 final_income.head()
 
 
-# In[9]:
+# In[26]:
 
 
 Master_df1 = pd.merge(final_client, final_detail)
 Master_df = pd.merge(Master_df1, final_income)
 
 
-# In[10]:
+# In[27]:
 
 
 Master_df.head()
 
 
-# In[11]:
+# In[28]:
 
 
 Master_df.to_csv("Final_data_for_analysis.csv", index=False)
