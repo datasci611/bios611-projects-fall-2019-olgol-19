@@ -3025,14 +3025,14 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 438076,48.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,909.0
 438074,51.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
 438202,36.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
-438203,66.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,No,No,No,0.0
-438203,66.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,No,No,No,400.0
-438203,66.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
-438203,66.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,400.0
-438203,67.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,No,No,No,0.0
-438203,67.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,No,No,No,400.0
-438203,67.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
-438203,67.0,Male,Client doesn't know (HUD),Non-Hispanic/Non-Latino,No,Yes,No,No,400.0
+438203,66.0,Male,Unknown,Non-Hispanic/Non-Latino,No,No,No,No,0.0
+438203,66.0,Male,Unknown,Non-Hispanic/Non-Latino,No,No,No,No,400.0
+438203,66.0,Male,Unknown,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
+438203,66.0,Male,Unknown,Non-Hispanic/Non-Latino,No,Yes,No,No,400.0
+438203,67.0,Male,Unknown,Non-Hispanic/Non-Latino,No,No,No,No,0.0
+438203,67.0,Male,Unknown,Non-Hispanic/Non-Latino,No,No,No,No,400.0
+438203,67.0,Male,Unknown,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
+438203,67.0,Male,Unknown,Non-Hispanic/Non-Latino,No,Yes,No,No,400.0
 233619,41.0,Male,White,Hispanic/Latino,No,Yes,No,No,0.0
 233619,41.0,Male,White,Hispanic/Latino,No,Yes,No,No,1800.0
 233619,41.0,Male,White,Hispanic/Latino,No,Yes,No,No,2000.0
@@ -3113,9 +3113,9 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 440231,40.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
 71472,52.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,491.0
 71472,52.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,262.0
-151291,65.0,Male,Black/African American,Client doesn't know (HUD),No,Yes,Yes,No,0.0
-151291,65.0,Male,Black/African American,Client doesn't know (HUD),No,Yes,Yes,No,264.0
-151291,65.0,Male,Black/African American,Client doesn't know (HUD),No,Yes,Yes,No,489.0
+151291,65.0,Male,Black/African American,Unknown,No,Yes,Yes,No,0.0
+151291,65.0,Male,Black/African American,Unknown,No,Yes,Yes,No,264.0
+151291,65.0,Male,Black/African American,Unknown,No,Yes,Yes,No,489.0
 440335,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 440335,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,700.0
 440604,63.0,Male,White,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
@@ -3140,9 +3140,9 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 192056,55.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,0.0
 192056,55.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,733.0
 357410,56.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
-357481,42.0,Female,Black/African American,Client doesn't know (HUD),No,Yes,Yes,No,0.0
-357481,42.0,Female,Black/African American,Client doesn't know (HUD),No,Yes,Yes,No,700.0
-357481,42.0,Female,Black/African American,Client doesn't know (HUD),No,Yes,Yes,No,355.0
+357481,42.0,Female,Black/African American,Unknown,No,Yes,Yes,No,0.0
+357481,42.0,Female,Black/African American,Unknown,No,Yes,Yes,No,700.0
+357481,42.0,Female,Black/African American,Unknown,No,Yes,Yes,No,355.0
 1555,31.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 441070,28.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
 441070,28.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,1000.0
@@ -3987,8 +3987,8 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 177751,33.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 183776,22.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,Yes,0.0
 265504,47.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
-460494,38.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,Client refused (HUD),0.0
-460494,38.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,Client refused (HUD),620.0
+460494,38.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,Unknown,0.0
+460494,38.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,Unknown,620.0
 430223,32.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,Yes,0.0
 430223,32.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,Yes,1800.0
 460493,53.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,0.0
@@ -4276,8 +4276,8 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 468562,62.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 468562,62.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,660.0
 468562,62.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,89.0
-468756,72.0,Male,White,Non-Hispanic/Non-Latino,Unknown,Data not collected (HUD),Data not collected (HUD),No,0.0
-468756,72.0,Male,White,Non-Hispanic/Non-Latino,Unknown,Data not collected (HUD),Data not collected (HUD),No,1352.0
+468756,72.0,Male,White,Non-Hispanic/Non-Latino,Unknown,Unknown,Unknown,No,0.0
+468756,72.0,Male,White,Non-Hispanic/Non-Latino,Unknown,Unknown,Unknown,No,1352.0
 81173,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 81173,50.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,850.0
 468888,45.0,Male,Native Hawaiian/Pacific Islander,Non-Hispanic/Non-Latino,No,No,No,No,0.0
@@ -5108,8 +5108,8 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 426252,28.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 194712,53.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 194712,53.0,Female,White,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1300.0
-268176,31.0,Male,Black/African American,Client doesn't know (HUD),No,Yes,No,No,0.0
-145480,49.0,Male,Client doesn't know (HUD),Hispanic/Latino,No,Yes,Yes,No,0.0
+268176,31.0,Male,Black/African American,Unknown,No,Yes,No,No,0.0
+145480,49.0,Male,Unknown,Hispanic/Latino,No,Yes,Yes,No,0.0
 499578,20.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 499578,20.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,80.0
 499958,42.0,Male,White,Non-Hispanic/Non-Latino,Yes,No,No,No,0.0
@@ -5132,8 +5132,8 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 371020,24.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,700.0
 500803,47.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,0.0
 500803,47.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,Yes,No,1200.0
-500865,43.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Client refused (HUD),Client refused (HUD),No,0.0
-500865,43.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Client refused (HUD),Client refused (HUD),No,525.0
+500865,43.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Unknown,Unknown,No,0.0
+500865,43.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Unknown,Unknown,No,525.0
 359310,44.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
 359310,44.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 359310,45.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
@@ -5148,7 +5148,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 499579,31.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,600.0
 501203,49.0,Male,Native Hawaiian/Pacific Islander,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,0.0
 501203,49.0,Male,Native Hawaiian/Pacific Islander,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,70.0
-267503,64.0,Male,Black/African American,Client doesn't know (HUD),No,No,No,No,0.0
+267503,64.0,Male,Black/African American,Unknown,No,No,No,No,0.0
 501202,53.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
 501202,53.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,740.0
 175579,58.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
@@ -5566,7 +5566,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 176719,59.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 1003627,58.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 1003627,58.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,768.0
-1003658,27.0,Male,White,Client doesn't know (HUD),No,No,No,No,0.0
+1003658,27.0,Male,White,Unknown,No,No,No,No,0.0
 1003707,34.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 384548,53.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 384548,53.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,771.0
@@ -5629,7 +5629,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 178516,56.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,No,No,0.0
 178516,56.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,No,No,400.0
 375499,29.0,Female,White,Non-Hispanic/Non-Latino,No,No,No,No,0.0
-390406,77.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Data not collected (HUD),No,988.0
+390406,77.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Unknown,No,988.0
 318609,46.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,780.0
 390827,55.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,733.0
 197342,56.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,No,No,0.0
@@ -5696,7 +5696,7 @@ ID,Age,Gender,Race,Ethnicity,Veteran,Disability,Health_Insurance,Domestic violen
 379101,42.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,No,No,No,0.0
 379101,42.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,0.0
 217680,51.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,No,1100.0
-248846,47.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Data not collected (HUD),No,700.0
+248846,47.0,Male,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Unknown,No,700.0
 370291,68.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,795.0
 370291,68.0,Male,Black/African American,Non-Hispanic/Non-Latino,Yes,Yes,Yes,No,143.0
 201818,27.0,Female,Black/African American,Non-Hispanic/Non-Latino,No,Yes,Yes,Yes,740.0
